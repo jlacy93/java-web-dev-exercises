@@ -16,6 +16,6 @@ public class Area {
             }
         } else {
         System.out.println("The area of this circle is: " + area); }
-
+        input.close();
     }
 }
