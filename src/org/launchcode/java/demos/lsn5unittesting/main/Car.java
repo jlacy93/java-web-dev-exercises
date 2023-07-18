@@ -85,4 +85,6 @@ public class Car {
         this.odometer += milesAbleToTravel;
     }
 
+    public void addGas(int i) {
+    }
 }
