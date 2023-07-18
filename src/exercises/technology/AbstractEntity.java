@@ -5,6 +5,7 @@ public abstract class AbstractEntity {
     private int ID;
 
     public void setID() {
+        IDCount++;
         this.ID = IDCount++;
     }
 }
